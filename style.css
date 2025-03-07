@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.custom-spacing{
+      margin-left: 400px;
+      justify-content: space-evenly;
+      width: 100%;
+      
+}
+
+
+.text-color{
+    color: #737171 
+}
+
+.image-container{
+    background-image: url(./image/whiteImage.jpg);
+    background-size: cover;
+    
+    background-position: center; /* Center the image */
+    
+    width: 100%;
+    height: 100vh;
+   
+}
+
+
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #f8f9fa;
+
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.feature-card  i{
+    padding-bottom: 1rem;
+    display:flex
+}
+
+.feature-card{
+    border-radius: 0; /* Removes rounded corners */
+}
+
+
+h6{
+  font-weight: bold; 
+}
+
+p{
+    font-size: medium;
+    color: #737171 ;
+
+}
+
+
+
+/* Disable scrolling */
+html, body {
+    overflow: hidden; /* Prevent both horizontal and vertical scrolling */
+    height: 100%; /* Ensure full height */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}
